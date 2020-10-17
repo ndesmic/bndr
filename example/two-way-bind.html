@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Two Way Bind Example</title>
+		<link rel="stylesheet" href="../css/index.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	</head>
+	<body>
+		<template id="input-tmpl">
+	    	<input type="text" class="input" />
+			<input type="checkbox" class="checkbox" />
+			<select class="select">
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+				<option value="blue">Blue</option>
+			</select>
+			<div class="output-input"></div>
+			<div class="output-checkbox"></div>
+			<div class="output-select"></div>
+		</template>
+		<script src="../js/bndr.js"></script>
+		<script src="js/two-way-bind.js"></script>
+	</body>
+</html>
